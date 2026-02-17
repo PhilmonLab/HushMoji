@@ -629,3 +629,6 @@ h1 {
     top: 15px;
     left: 15px;
 }
+.lang-ti * {
+    font-family: 'Noto Serif Ethiopic', serif;
+}
