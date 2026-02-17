@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide a message in an emoji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="app">
+        <!-- Language Selector -->
+        <div class="language-selector" id="languageSelector">🇺🇸</div>
+        <div class="language-dropdown" id="languageDropdown">
+            <div class="language-option active" data-lang="en">
+                <span class="lang-flag">🇺🇸</span>
+                <span>English</span>
+            </div>
+            <div class="language-option" data-lang="de">
+                <span class="lang-flag">🇩🇪</span>
+                <span>Deutsch</span>
+            </div>
+            <div class="language-option" data-lang="ti">
+                <span class="lang-flag">🇪🇷</span>
+                <span>ትግርኛ</span>
+            </div>
+        </div>
+
+        <h1 id="mainHeading">Hide a message in an emoji</h1>
+        <p class="description" id="description">
+            This tool allows you to encode a hidden message into an emoji or alphabet letter.
+            You can copy and paste text with a hidden message in it to decode the message.
+        </p>
+
+        <!-- Toggle Switch -->
+        <div class="mode-toggle">
+            <span class="mode-label" id="decodeLabel">Decode</span>
+            <div class="switch" id="modeSwitch">
+                <div class="switch-handle"></div>
+            </div>
+            <span class="mode-label active" id="encodeLabel">Encode</span>
+        </div>
+
+        <!-- Flip Container for Encode Mode -->
+        <div class="flip-container" id="flipContainer">
+            <!-- Front: Secret Message Input -->
+            <div class="flip-front">
+                <div class="input-section">
+                    <label class="input-label" id="inputLabel">Paste an emoji to decode</label>
+                    <textarea id="inputText" placeholder="Enter your secret message"></textarea>
+                </div>
+            </div>
+
+            <!-- Back: Clipboard Box -->
+            <div class="flip-back" id="clipboardBox">
+                <div class="clipboard-icon">📋</div>
+                <div class="clipboard-text" id="clipboardText">Click to Copy Emoji</div>
+                <div class="clipboard-hint" id="clipboardHint">Ready to paste anywhere!</div>
+                <canvas id="fireworks-canvas"></canvas>
+            </div>
+        </div>
+
+        <!-- Decode Mode Input -->
+        <div class="decode-input-section" id="decodeInputSection">
+            <label class="input-label" id="decodeInputLabel">Paste an emoji to decode</label>
+            <textarea id="decodeInput" placeholder="Paste emoji here"></textarea>
+        </div>
+
+        <!-- Decode Output -->
+        <div class="decode-output" id="decodeOutputSection">
+            <div class="output-header">
+                <span id="outputLabel">Decoded Message</span>
+                <button class="copy-btn" id="decodeCopyBtn">Copy to Clipboard</button>
+            </div>
+            <div class="output-content" id="decodeOutputContent"></div>
+        </div>
+
+        <!-- Action Button (Encode / Decode) -->
+        <button class="action-btn" id="actionBtn">Encode Message</button>
+
+        <!-- Messages -->
+        <div class="message error-msg" id="errorMsg"></div>
+        <div class="message success-msg" id="successMsg"></div>
+
+        <!-- Selected Carrier Display -->
+        <div class="selected-display" id="selectedDisplay">
+            <div class="selected-label" id="selectedLabel">Selected carrier</div>
+            <div class="selected-emoji" id="selectedEmoji">😊</div>
+        </div>
+
+        <!-- Emoji Picker Section -->
+        <div class="emoji-section">
+            <div class="section-title" id="emojiSectionTitle">Pick an emoji</div>
+            <div class="emoji-grid" id="emojiGrid"></div>
+        </div>
+
+        <!-- Letter Picker Section -->
+        <div class="letter-section">
+            <div class="section-title" id="letterSectionTitle">Or pick a standard alphabet letter</div>
+            <div class="letter-grid" id="letterGrid"></div>
+        </div>
+
+        <!-- Tutorial & GitHub Links -->
+        <div class="footer-links">
+            <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="tutorial-link" id="tutorialLink">
+                ▶️ How does this work? Watch tutorial
+            </a>
+            <a href="https://github.com/PhilmonLab/HushMoji" target="_blank" class="github-link">
+                Source on GitHub
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
