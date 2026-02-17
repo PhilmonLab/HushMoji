@@ -620,3 +620,10 @@ h1 {
         grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     }
 }
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin-left: 0;
+}
