@@ -631,4 +631,5 @@ h1 {
 }
 .lang-ti * {
     font-family: 'Noto Serif Ethiopic', serif;
+    font-weight: 400;  /* if not worked change it to 600 or 700 bold 900 */
 }
