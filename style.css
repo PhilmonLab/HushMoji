@@ -620,9 +620,9 @@ h1 {
         grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     }
 }.logo {
-    width: 48px;
-    height: 48px;
-    max-width: 48px;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
     object-fit: contain;
     position: absolute;
     top: 15px;
