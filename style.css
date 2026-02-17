@@ -621,8 +621,8 @@ h1 {
     }
 }
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     display: block;
     margin-left: 0;
