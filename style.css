@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%)
+    background: linear-gradient(90deg, #dac574 0.000%, #dac574 7.692%, #d9b656 calc(7.692% + 1px), #d9b656 15.385%, #d5a337 calc(15.385% + 1px), #d5a337 23.077%, #d08f17 calc(23.077% + 1px), #d08f17 30.769%, #c87900 calc(30.769% + 1px), #c87900 38.462%, #be6100 calc(38.462% + 1px), #be6100 46.154%, #b24800 calc(46.154% + 1px), #b24800 53.846%, #a52f00 calc(53.846% + 1px), #a52f00 61.538%, #961600 calc(61.538% + 1px), #961600 69.231%, #860000 calc(69.231% + 1px), #860000 76.923%, #740000 calc(74.615% + 1px), #740000 84.615%, #620000 calc(84.615% + 1px), #620000 92.308%, #500000 calc(92.308% + 1px) 100.000%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
