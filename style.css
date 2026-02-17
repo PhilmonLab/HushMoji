@@ -621,11 +621,11 @@ h1 {
     }
 }
 .logo {
-    width: 50px;
-    height: 50px;
-    max-width: 50px;
+    width: 72px;
+    height: 72px;
+    max-width: 72px;
     object-fit: contain;
-    display: block;
-    margin-left: 0;
-    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
