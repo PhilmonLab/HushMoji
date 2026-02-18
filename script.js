@@ -172,7 +172,7 @@ document.querySelectorAll('.language-option').forEach(option => {
 function setLanguage(lang) {
     currentLang = lang;
     const t = translations[lang];
-    const flags = { en: '🇺🇸', de: '🇩🇪', ti: '🇪🇷' };
+    const flags = { en: '🇬🇧', de: '🇨🇭', ti: '🇪🇷' };
     languageSelector.textContent = flags[lang];
 
     document.getElementById('mainHeading').textContent = t.title;
