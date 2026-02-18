@@ -72,7 +72,7 @@ const translations = {
         selectedReady: "መሪጽካዮ ዘለካ ሰእሊ/Emoji! ✅",
         emojiTitle: "ሰእሊ/Emoji ምረጽ",
         letterTitle: "ወይ ድማ ፊደል ምረጽ",
-        outputLabel: "",
+        outputLabel: "እቲ ምስጢር ኣብዚ ታሕቲ ኣንብቦ",
         successDecode: "ምስጢራዊ መልእክቲ ተፈቲሑ!",
         errorEmpty: "መጀመርታ ጽሑፍ የእቱው!",
         errorNoMessage: "ምስጢራዊ መልእኽቲ ኣይተረኸበን",
