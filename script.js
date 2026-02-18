@@ -29,7 +29,7 @@ const translations = {
     },
     de: {
         title: "Verstecke eine Nachricht in einem Emoji",
-        description: "Dieses Tool ermöglicht es dir, eine versteckte Nachricht in ein Emoji oder einen Buchstaben zu kodieren. Du kannst Text mit einer versteckten Nachricht kopieren und einfügen, um sie zu dekodieren.",
+        description: "Dieses Tool ermöglicht das Kodieren versteckter Nachrichten in Emojis oder Buchstaben. Text mit eingebetteter Nachricht kann kopiert und eingefügt werden, um sie zu dekodieren.",
         decode: "Dekodieren",
         encode: "Kodieren",
         decodeLabel: "Emoji zum Dekodieren einfügen",
